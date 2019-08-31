@@ -5,6 +5,7 @@ import { UsersComponent } from './users/users.component';
 import { ProfileComponent } from './profile/profile.component';
 import { GroupsComponent } from './groups/groups.component';
 import { ChatComponent } from './chat/chat.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 import { ChannelsComponent } from './channels/channels.component';
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
   { path: 'profile', component: ProfileComponent},
   { path: 'groups', component: GroupsComponent},
   { path: 'chat', component: ChatComponent},
+  { path: 'dashboard', component: DashboardComponent},
   { path: 'channels', component: ChannelsComponent}
 ];
 
