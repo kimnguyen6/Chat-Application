@@ -26,7 +26,7 @@ This application is supposed to hold the functionality of the following:
 * Has an email address
 
 ## Git Repository Layout
-The root directory of the repository contains the `README.md` file for the specifications. Node.js implementation is done within the `server` directory along witht the file `server.js`. The root directory contains a sub-directory known as the `chat` directory which contains the components of Angular.
+The root directory of the repository contains the `README.md` file for the specifications. Node.js implementation is done within the `server` directory along with the file `server.js`. The root directory contains a sub-directory known as the `chat` directory which contains the components of Angular.
   
 The `chat` directory contains all the auto-generated files. The project's files are contained inside the `src/app` sub-directory. There are also other directories relating to the specifications of the tasks including `login`, `profile`, `groups` etc.
   
