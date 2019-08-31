@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+  <div class="container-fluid">
+    <ul class="nav navbar">
+      <li class="active">
+        <a class="nav-link" routerLink="/">Home</a>
+      </li> 
+      <li> 
+          <a class="nav-link" routerLink="/">Profile</a>
+        <!--<a class="nav-link" (click)="goProfile()">Profile</a>-->
+      </li>
+      <li> 
+        <a class="nav-link" routerLink="/">Users</a>
+      </li>
+      <li>
+        <a class="nav-link" routerLink="/">Groups</a>
+      </li>
+      <li>
+        <button class="nav-link" routerLink="/login">Login</button>
+      </li>
+    </ul> 
+  </div>
+</nav>
+<div class="container">
+<router-outlet></router-outlet>
+</div>
